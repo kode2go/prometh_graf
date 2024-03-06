@@ -56,3 +56,27 @@ https://prometheus.io/docs/prometheus/latest/getting_started/
   412  sudo systemctl status prometheus
 
 ```
+
+# screens
+
+```
+http://localhost:3000/connections/datasources/edit/b58de004-bab9-4f86-811b-cd730f2885c3
+```
+
+![image](https://github.com/kode2go/prometh_graf/assets/29664888/2ee8bdcf-feb9-41f1-927c-2db4a8b49322)
+
+![image](https://github.com/kode2go/prometh_graf/assets/29664888/e4a45bd8-5eeb-4ac9-9c76-c4c5405631a4)
+
+```
+http://localhost:3000/dashboard/new?orgId=1&from=1708360726578&to=1708360771404
+```
+
+![image](https://github.com/kode2go/prometh_graf/assets/29664888/d511c3b5-ba29-4d65-8988-684d4418431a)
+
+```
+http://localhost:9090/graph?g0.expr=prometheus_target_interval_length_seconds&g0.tab=0&g0.stacked=0&g0.show_exemplars=0&g0.range_input=1h&g1.expr=process_virtual_memory_bytes&g1.tab=0&g1.stacked=0&g1.show_exemplars=0&g1.range_input=1h
+```
+
+![image](https://github.com/kode2go/prometh_graf/assets/29664888/95b100e8-bfc3-4e67-8234-f27ff3eca8e6)
+
+
